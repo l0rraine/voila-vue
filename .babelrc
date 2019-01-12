@@ -1,0 +1,11 @@
+{
+    "presets": ["stage-3","env"],
+    "plugins": ["transform-runtime", "syntax-dynamic-import",
+        ["import", {
+      "libraryName": "muse-ui",
+      "libraryDirectory": "lib",
+      "camel2DashComponentName": false
+    }]
+    ],
+    "comments": false
+}
